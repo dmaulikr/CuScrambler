@@ -1,0 +1,450 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6696DF901F47DD26009648F3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6696DF8F1F47DD26009648F3 /* AppDelegate.m */; };
+		6696DF931F47DD26009648F3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6696DF921F47DD26009648F3 /* main.m */; };
+		6696DF961F47DD26009648F3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6696DF951F47DD26009648F3 /* ViewController.m */; };
+		6696DF981F47DD26009648F3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6696DF971F47DD26009648F3 /* Assets.xcassets */; };
+		6696DF9B1F47DD26009648F3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6696DF991F47DD26009648F3 /* Main.storyboard */; };
+		6696DFA61F47DD26009648F3 /* CuScramblerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6696DFA51F47DD26009648F3 /* CuScramblerTests.m */; };
+		6696DFB41F47DDC1009648F3 /* CubeBlock.m in Sources */ = {isa = PBXBuildFile; fileRef = 6696DFB31F47DDC1009648F3 /* CubeBlock.m */; };
+		6696DFB71F47DDE4009648F3 /* Scrambler.m in Sources */ = {isa = PBXBuildFile; fileRef = 6696DFB61F47DDE4009648F3 /* Scrambler.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6696DFA21F47DD26009648F3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6696DF831F47DD26009648F3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6696DF8A1F47DD26009648F3;
+			remoteInfo = CuScrambler;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6696DF8B1F47DD26009648F3 /* CuScrambler.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CuScrambler.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6696DF8E1F47DD26009648F3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		6696DF8F1F47DD26009648F3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		6696DF921F47DD26009648F3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6696DF941F47DD26009648F3 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		6696DF951F47DD26009648F3 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		6696DF971F47DD26009648F3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6696DF9A1F47DD26009648F3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6696DF9C1F47DD26009648F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6696DFA11F47DD26009648F3 /* CuScramblerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CuScramblerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6696DFA51F47DD26009648F3 /* CuScramblerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CuScramblerTests.m; sourceTree = "<group>"; };
+		6696DFA71F47DD26009648F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6696DFB01F47DD51009648F3 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		6696DFB21F47DDC1009648F3 /* CubeBlock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CubeBlock.h; sourceTree = "<group>"; };
+		6696DFB31F47DDC1009648F3 /* CubeBlock.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CubeBlock.m; sourceTree = "<group>"; };
+		6696DFB51F47DDE4009648F3 /* Scrambler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Scrambler.h; sourceTree = "<group>"; };
+		6696DFB61F47DDE4009648F3 /* Scrambler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Scrambler.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6696DF881F47DD26009648F3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6696DF9E1F47DD26009648F3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6696DF821F47DD26009648F3 = {
+			isa = PBXGroup;
+			children = (
+				6696DFB01F47DD51009648F3 /* PrefixHeader.pch */,
+				6696DF8D1F47DD26009648F3 /* CuScrambler */,
+				6696DFA41F47DD26009648F3 /* CuScramblerTests */,
+				6696DF8C1F47DD26009648F3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6696DF8C1F47DD26009648F3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6696DF8B1F47DD26009648F3 /* CuScrambler.app */,
+				6696DFA11F47DD26009648F3 /* CuScramblerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6696DF8D1F47DD26009648F3 /* CuScrambler */ = {
+			isa = PBXGroup;
+			children = (
+				6696DFB11F47DD99009648F3 /* Src */,
+				6696DF8E1F47DD26009648F3 /* AppDelegate.h */,
+				6696DF8F1F47DD26009648F3 /* AppDelegate.m */,
+				6696DF941F47DD26009648F3 /* ViewController.h */,
+				6696DF951F47DD26009648F3 /* ViewController.m */,
+				6696DF971F47DD26009648F3 /* Assets.xcassets */,
+				6696DF991F47DD26009648F3 /* Main.storyboard */,
+				6696DF9C1F47DD26009648F3 /* Info.plist */,
+				6696DF911F47DD26009648F3 /* Supporting Files */,
+			);
+			path = CuScrambler;
+			sourceTree = "<group>";
+		};
+		6696DF911F47DD26009648F3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6696DF921F47DD26009648F3 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6696DFA41F47DD26009648F3 /* CuScramblerTests */ = {
+			isa = PBXGroup;
+			children = (
+				6696DFA51F47DD26009648F3 /* CuScramblerTests.m */,
+				6696DFA71F47DD26009648F3 /* Info.plist */,
+			);
+			path = CuScramblerTests;
+			sourceTree = "<group>";
+		};
+		6696DFB11F47DD99009648F3 /* Src */ = {
+			isa = PBXGroup;
+			children = (
+				6696DFB21F47DDC1009648F3 /* CubeBlock.h */,
+				6696DFB31F47DDC1009648F3 /* CubeBlock.m */,
+				6696DFB51F47DDE4009648F3 /* Scrambler.h */,
+				6696DFB61F47DDE4009648F3 /* Scrambler.m */,
+			);
+			path = Src;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6696DF8A1F47DD26009648F3 /* CuScrambler */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6696DFAA1F47DD26009648F3 /* Build configuration list for PBXNativeTarget "CuScrambler" */;
+			buildPhases = (
+				6696DF871F47DD26009648F3 /* Sources */,
+				6696DF881F47DD26009648F3 /* Frameworks */,
+				6696DF891F47DD26009648F3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CuScrambler;
+			productName = CuScrambler;
+			productReference = 6696DF8B1F47DD26009648F3 /* CuScrambler.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6696DFA01F47DD26009648F3 /* CuScramblerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6696DFAD1F47DD26009648F3 /* Build configuration list for PBXNativeTarget "CuScramblerTests" */;
+			buildPhases = (
+				6696DF9D1F47DD26009648F3 /* Sources */,
+				6696DF9E1F47DD26009648F3 /* Frameworks */,
+				6696DF9F1F47DD26009648F3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6696DFA31F47DD26009648F3 /* PBXTargetDependency */,
+			);
+			name = CuScramblerTests;
+			productName = CuScramblerTests;
+			productReference = 6696DFA11F47DD26009648F3 /* CuScramblerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6696DF831F47DD26009648F3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = moweipeng;
+				TargetAttributes = {
+					6696DF8A1F47DD26009648F3 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = HQR838CJD8;
+						ProvisioningStyle = Automatic;
+					};
+					6696DFA01F47DD26009648F3 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = HQR838CJD8;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 6696DF8A1F47DD26009648F3;
+					};
+				};
+			};
+			buildConfigurationList = 6696DF861F47DD26009648F3 /* Build configuration list for PBXProject "CuScrambler" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6696DF821F47DD26009648F3;
+			productRefGroup = 6696DF8C1F47DD26009648F3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6696DF8A1F47DD26009648F3 /* CuScrambler */,
+				6696DFA01F47DD26009648F3 /* CuScramblerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6696DF891F47DD26009648F3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6696DF981F47DD26009648F3 /* Assets.xcassets in Resources */,
+				6696DF9B1F47DD26009648F3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6696DF9F1F47DD26009648F3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6696DF871F47DD26009648F3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6696DFB41F47DDC1009648F3 /* CubeBlock.m in Sources */,
+				6696DFB71F47DDE4009648F3 /* Scrambler.m in Sources */,
+				6696DF961F47DD26009648F3 /* ViewController.m in Sources */,
+				6696DF931F47DD26009648F3 /* main.m in Sources */,
+				6696DF901F47DD26009648F3 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6696DF9D1F47DD26009648F3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6696DFA61F47DD26009648F3 /* CuScramblerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6696DFA31F47DD26009648F3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6696DF8A1F47DD26009648F3 /* CuScrambler */;
+			targetProxy = 6696DFA21F47DD26009648F3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6696DF991F47DD26009648F3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6696DF9A1F47DD26009648F3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6696DFA81F47DD26009648F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		6696DFA91F47DD26009648F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		6696DFAB1F47DD26009648F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = HQR838CJD8;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = PrefixHeader.pch;
+				INFOPLIST_FILE = CuScrambler/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.moweipeng.CuScrambler;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		6696DFAC1F47DD26009648F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = HQR838CJD8;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = PrefixHeader.pch;
+				INFOPLIST_FILE = CuScrambler/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.moweipeng.CuScrambler;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		6696DFAE1F47DD26009648F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = HQR838CJD8;
+				INFOPLIST_FILE = CuScramblerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.moweipeng.CuScramblerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CuScrambler.app/Contents/MacOS/CuScrambler";
+			};
+			name = Debug;
+		};
+		6696DFAF1F47DD26009648F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = HQR838CJD8;
+				INFOPLIST_FILE = CuScramblerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.moweipeng.CuScramblerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CuScrambler.app/Contents/MacOS/CuScrambler";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6696DF861F47DD26009648F3 /* Build configuration list for PBXProject "CuScrambler" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6696DFA81F47DD26009648F3 /* Debug */,
+				6696DFA91F47DD26009648F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6696DFAA1F47DD26009648F3 /* Build configuration list for PBXNativeTarget "CuScrambler" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6696DFAB1F47DD26009648F3 /* Debug */,
+				6696DFAC1F47DD26009648F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		6696DFAD1F47DD26009648F3 /* Build configuration list for PBXNativeTarget "CuScramblerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6696DFAE1F47DD26009648F3 /* Debug */,
+				6696DFAF1F47DD26009648F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6696DF831F47DD26009648F3 /* Project object */;
+}

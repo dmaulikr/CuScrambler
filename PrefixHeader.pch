@@ -1,0 +1,117 @@
+//
+//  PrefixHeader.pch
+//  MokScrambler
+//
+//  Created by Mo Weipeng on 2017/8/18.
+//  Copyright © 2017 cutimer.com. All rights reserved.
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+#import <Foundation/NSObjCRuntime.h>
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+typedef NS_OPTIONS(NSInteger, CTCubeColor){
+    CTColorNone                                     = 0,
+    CTColorWhite                                    = 1,
+    CTColorYellow                                   = 2,
+    CTColorRed                                      = 3,
+    CTColorOrange                                   = 4,
+    CTColorBlue                                     = 5,
+    CTColorGreen                                    = 6
+};
+
+typedef NS_OPTIONS(NSInteger, CTCubeFace){
+    CTFaceUp                                        = 1,
+    CTFaceDown                                      = 2,
+    CTFaceLeft                                      = 3,
+    CTFaceRight                                     = 4,
+    CTFaceFront                                     = 5,
+    CTFaceBack                                      = 6
+};
+
+typedef NS_OPTIONS(NSInteger, CTCubeRotateDirection){
+    // 判断是否同一转动面：模24值相等
+    // 判断是否同一转动面组：模3值相等
+    // 对于2阶和3阶，剔除模24值大于5的转动面
+    // 对于4阶和5阶，剔除模24值大于11的转动面
+    // 对于6阶和7阶，剔除模24值大于17的转动面
+    CTDirectionU                                    = 0,
+    CTDirectionUr                                   = 24,   // U'
+    CTDirectionU2                                   = 48,
+    CTDirectionD                                    = 3,
+    CTDirectionDr                                   = 27,   //D'
+    CTDirectionD2                                   = 51,
+    CTDirectionF                                    = 1,
+    CTDirectionFr                                   = 25,   //F'
+    CTDirectionF2                                   = 49,
+    CTDirectionB                                   = 4,
+    CTDirectionBr                                   = 28,   //B'
+    CTDirectionB2                                   = 49,
+    CTDirectionL                                   = 2,
+    CTDirectionLr                                   = 26,   //L'
+    CTDirectionL2                                   = 50,
+    CTDirectionR                                   = 5,
+    CTDirectionRr                                   = 29,   //R'
+    CTDirectionR2                                   = 53,
+    
+    CTDirectionUw                                   = 6,
+    CTDirectionUwr                                   = 30,  //Uw'
+    CTDirectionUw2                                   = 54,
+    CTDirectionDw                                   = 9,
+    CTDirectionDwr                                   = 33,  //Dw'
+    CTDirectionDw2                                   = 57,
+    CTDirectionFw                                   = 7,
+    CTDirectionFwr                                   = 31,  //Fw'
+    CTDirectionFw2                                   = 55,
+    CTDirectionBw                                   = 10,
+    CTDirectionBwr                                   = 34,  //Bw'
+    CTDirectionBw2                                   = 58,
+    CTDirectionLw                                   = 8,
+    CTDirectionLwr                                   = 32,  //Lw'
+    CTDirectionLw2                                   = 56,
+    CTDirectionRw                                   = 11,
+    CTDirectionRwr                                   = 35,  //Rw'
+    CTDirectionRw2                                   = 59,
+    
+    CTDirection3Uw                                   = 12,
+    CTDirection3Uwr                                   = 36,  //3Uw'
+    CTDirection3Uw2                                   = 60,
+    CTDirection3Dw                                   = 15,
+    CTDirection3Dwr                                   = 39,  //3Dw'
+    CTDirection3Dw2                                   = 63,
+    CTDirection3Fw                                   = 13,
+    CTDirection3Fwr                                   = 37,  //3Fw'
+    CTDirection3Fw2                                   = 61,
+    CTDirection3Bw                                   = 16,
+    CTDirection3Bwr                                   = 40,  //3Bw'
+    CTDirection3Bw2                                   = 64,
+    CTDirection3Lw                                   = 14,
+    CTDirection3Lwr                                   = 38,  //3Lw'
+    CTDirection3Lw2                                   = 62,
+    CTDirection3Rw                                   = 17,
+    CTDirection3Rwr                                   = 41,  //3Rw'
+    CTDirection3Rw2                                   = 65,
+    
+    CTDirection4Uw                                   = 18,
+    CTDirection4Uwr                                   = 42,  //4Uw'
+    CTDirection4Uw2                                   = 66,
+    CTDirection4Dw                                   = 21,
+    CTDirection4Dwr                                   = 45,  //4Dw'
+    CTDirection4Dw2                                   = 69,
+    CTDirection4Fw                                   = 19,
+    CTDirection4Fwr                                   = 43,  //4Fw'
+    CTDirection4Fw2                                   = 67,
+    CTDirection4Bw                                   = 22,
+    CTDirection4Bwr                                   = 46,  //4Bw'
+    CTDirection4Bw2                                   = 70,
+    CTDirection4Lw                                   = 20,
+    CTDirection4Lwr                                   = 44,  //4Lw'
+    CTDirection4Lw2                                   = 68,
+    CTDirection4Rw                                   = 23,
+    CTDirection4Rwr                                   = 47,  //4Rw'
+    CTDirection4Rw2                                   = 71,
+};
+
+
+#endif /* PrefixHeader_pch */
