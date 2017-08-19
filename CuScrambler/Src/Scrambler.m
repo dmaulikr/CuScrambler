@@ -18,14 +18,14 @@ int DEFAULT_MOVES_NUMBER[] = {0,0,11,20,40,60,80,100,130,160};    // The require
      Rotating Set Group: Base on dimension of a Rotating Set. U', Uw, 3Uw2 are in the same Rotating Set Group, but U' and L are not.
      Scramble Score: The score to judge the scramble status of a cube. 
                      For 2 neighbor pieces of a cube, if they are both corner or edge pieces and they were neighbor when the cube was solved, add 4 point to the total score;
-                                                      if 1 of them is center piece (which means ont coner or edge) and they were neighbor when the cube was solved, add 1 point to the total score.
+                                                      if 1 of them is center piece (which means not corner or edge) and they were neighbor when the cube was solved, add 1 point to the total score.
                      Why: The best scrambled effect after many times of experiments.
                      The less the score, the better the scramble effect is.
      */
     
-    /* Extra Requirments:
-     1. Rotating Directions in the same Rotating Set cannot be selected in continous twice. E.g. U U2 is not allowed in a scramble sequence.
-     2. Rotating Directions in the same Rotating Set Group cannot be selected in continous three times. E.g. U Uw U' is not allowed in a scramble sequence.
+    /* Extra Requirements:
+     1. Rotating Directions in the same Rotating Set cannot be selected in continuous twice. E.g. U U2 is not allowed in a scramble sequence.
+     2. Rotating Directions in the same Rotating Set Group cannot be selected in continuous three times. E.g. U Uw U' is not allowed in a scramble sequence.
      */
     
     /* Algorithm:
@@ -41,7 +41,7 @@ int DEFAULT_MOVES_NUMBER[] = {0,0,11,20,40,60,80,100,130,160};    // The require
      Simulate a 3-dimensional array of CubeBlock. A CubeBlock is a single piece of the cube, and contains 6 faces: U, D, L, R, F, B. 
      Not all of 6 faces are used. A corner piece only uses 3 faces, an edge piece only uses 2 faces, and a center piece only uses 1 face.
      
-     Each of 6 faces has color value. The color values of unused faces are 0. Obviousely, there will be many redundant data for easy description and calculation.
+     Each of 6 faces has color value. The color values of unused faces are 0. Obviously, there will be many redundant data for easy description and calculation.
      
      As I didn't know a good description of a 3-dimensional array in Objective-C, I describe it with NSDictionary instead. 
      Before set or get value, we need to calculate the key by (x,y,z) axes, and get the CubeBlock from the NSDictionary.
@@ -50,7 +50,7 @@ int DEFAULT_MOVES_NUMBER[] = {0,0,11,20,40,60,80,100,130,160};    // The require
      */
     
     /* About rotation:
-     For easier implementation and calculate when implementing (and copy the code to reduce the manual coordinate calculation ^_^), I desided: 
+     For easier implementation and calculate when implementing (and copy the code to reduce the manual coordinate calculation ^_^), I decided:
      U,Uw,F,Fw,L,Lw...: Base on clockwise. Counterclockwise means 3 times of clockwise, and turn 180 degree means twice of clockwise;
      D,Dw,B,Bw,R,Rw...: Base on counterclockwise. Clockwise means 3 times of counterclockwise, and turn 180 degree means twice of counterclockwise.
      */
